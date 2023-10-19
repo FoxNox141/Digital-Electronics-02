@@ -44,6 +44,20 @@
  **********************************************************************/
 int main(void)
 {
+
+       int main(void)
+    {
+        // Custom character definition using https://omerk.github.io/lcdchargen/
+        uint8_t customChar[N_CHARS*8] = {
+            0b00111,
+            0b01110,
+            0b11100,
+            0b11000,
+            0b11100,
+            0b01110,
+            0b00111,
+            0b00011
+        };
     // Initialize display
     lcd_init(LCD_DISP_ON_CURSOR_BLINK);
 
@@ -129,19 +143,7 @@ ISR(TIMER2_OVF_vect)
 
     #define N_CHARS 1  // Number of new custom characters
 
-    int main(void)
-    {
-        // Custom character definition using https://omerk.github.io/lcdchargen/
-        uint8_t customChar[N_CHARS*8] = {
-            0b00111,
-            0b01110,
-            0b11100,
-            0b11000,
-            0b11100,
-            0b01110,
-            0b00111,
-            0b00011
-        };
+ 
 
         // Initialize display
         lcd_init(LCD_DISP_ON);
