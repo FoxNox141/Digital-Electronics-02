@@ -28,7 +28,7 @@ Kombinuje znalosti z oblastí:
 
 ---
 
-## 2. Hardware
+## <code style="color : red">Hardware</code>
 
 Mikrokontrolér: ATmega16/ATmega328
 
