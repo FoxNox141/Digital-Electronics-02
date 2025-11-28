@@ -78,9 +78,9 @@ Níže je shrnutí toho, co dělá kompletní software ovladače tuneru SI4703.
 Čtení a zápis registrů
 - Registery tuneru jsou zpracovány v poli si4703_regs[16].
   - si4703_readRegisters()
-  → načte všech 16 registrů tuneru.
+  → `načte všech 16 registrů tuneru.`
   - si4703_writeRegisters()
-  → zapíše registrační blok zpět (0×02–0×07).
+  → `zapíše registrační blok zpět (0×02–0×07).`
 
 - Tím se realizuje kompletní obousměrná komunikace čipu.
 ---
@@ -106,8 +106,8 @@ Funkce si4703_setChannel(freq):
 ### $\color{#75dad3}{\textsf{Hlasitost Síla signálu – RSSI}}$
 
 - Hlasitost je řízena pomocí bitů registru 0×05:
-  - rozsah 0–15
-  - funkce: si4703_setVolume(), si4703_getVolume()
+  - rozsah `0–15`
+  - funkce: `si4703_setVolume()`, `si4703_getVolume()`
 ---
 ### $\color{#75dad3}{\textsf{Síla signálu – RSSI}}$
 
@@ -124,13 +124,13 @@ Funkce si4703_setChannel(freq):
 ---
 ## $\color{#75dad3}{\textsf{Rozdělení práce}}$
 
-- Rous - implementace RDS, dekódování textu
+- Rous - `implementace RDS, dekódování textu`
 
-- Smetana - enkodér, ovládací prvky
+- Smetana - `enkodér, ovládací prvky`
 
-- Pochylý - LCD a zobrazení informací
+- Pochylý - `LCD a zobrazení informací`
 
-- Maděránek - plakát (GitHub), schémata, propojení v main.c
+- Maděránek - `plakát (GitHub), schémata, propojení v main.c`
 
 ---
 
