@@ -21,7 +21,7 @@ Projekt demonstruje:
 - jednoduché uživatelské rozhraní
 
 Kombinuje znalosti z oblastí:
-- **I²C, GPIO, časovače, UART**
+- **I2C, GPIO, časovače, UART**
 - C pro AVR (AVR-GCC)
 - návrh embedded rozhraní
 - práce s RF a audio signály
@@ -33,9 +33,9 @@ Kombinuje znalosti z oblastí:
 Mikrokontrolér: ATmega16/ATmega328
 
 FM tuner:
--SI4703 (hlavní implementace, plná podpora RDS)
--LCD/OLED displej: 2×16 znaků / grafický OLED
--Ovládací prvky: tlačítka / rotační enkodér
+- SI4703 (hlavní implementace, plná podpora RDS)
+- LCD/OLED displej: 2×16 znaků / grafický OLED
+- Ovládací prvky: tlačítka / rotační enkodér
 
 Napájení: 5 V
 
@@ -45,19 +45,19 @@ Komunikační sběrnice: I²C
 
 ## 3. Software
 
--Jazyk: C
--Kompilátor: AVR-GCC
--Programování: AVRDUDE
+- Jazyk: C
+- Kompilátor: AVR-GCC
+- Programování: AVRDUDE
 
-Struktura projektu:
--main.c – propojení všech modulů
--SI4703 - ovladač pro FM tuner
--i2c.c/h a twi.c/h – I2C komunikace a knihovny
--oled.c/h, oled_rds.c/h – zobrazení, ovládání LCD displeje a RDS
--lcd.c/h – LCD ovladač
--freq_selector.c/h – volba frekvence
--uart.c/h – ladicí výstup přes sériovou linku
--timer.c/h – časovače
+- Struktura projektu:
+ - main.c – propojení všech modulů
+ - SI4703 - ovladač pro FM tuner
+ - i2c.c/h a twi.c/h – I2C komunikace a knihovny
+ - oled.c/h, oled_rds.c/h – zobrazení, ovládání LCD displeje a RDS
+ - lcd.c/h – LCD ovladač
+ - freq_selector.c/h – volba frekvence
+ - uart.c/h – ladicí výstup přes sériovou linku
+ - timer.c/h – časovače
 
 ---
 
