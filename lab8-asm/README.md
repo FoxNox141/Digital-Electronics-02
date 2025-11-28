@@ -88,49 +88,49 @@ Níže je shrnutí toho, co dělá kompletní software ovladače tuneru SI4703.
 
 Funkce si4703_setChannel(freq):
 
--přepočítá frekvenci (kHz → kanál)
--nastaví bit TUNE
--čeká na dokončení STC (Seek/Tune Complete)
--vrátí přesně naladěnou frekvenci
--umožňuje přesné a opakovatelné ladění FM pásma.
+- přepočítá frekvenci (kHz → kanál)
+- nastaví bit TUNE
+- čeká na dokončení STC (Seek/Tune Complete)
+- vrátí přesně naladěnou frekvenci
+- umožňuje přesné a opakovatelné ladění FM pásma
 ---
+
 ### Automatické ladění (SEEK)
 
-Pomocí si4703_seekUp() / seekDown():
+ - Pomocí si4703_seekUp() / seekDown():
 
--tuner vyhledává další dostupnou stanici
--zastaví se na prvním dostatečně silném signálu
--vrací buď nalezenou frekvenci, nebo informaci o neúspěchu
+  - tuner vyhledává další dostupnou stanici
+  - zastaví se na prvním dostatečně silném signálu
+  - vrací buď nalezenou frekvenci, nebo informaci o neúspěchu
 ---
 ### Hlasitost
 
-Hlasitost je řízena pomocí bitů registru 0×05:
-
--rozsah 0–15
--funkce: si4703_setVolume(), si4703_getVolume()
+- Hlasitost je řízena pomocí bitů registru 0×05:
+  - rozsah 0–15
+  - funkce: si4703_setVolume(), si4703_getVolume()
 ---
 ###Síla signálu – RSSI
 
--Funkce si4703_getRSSI() čte aktuální kvalitu signálu (0–75).
--Slouží pro indikaci, zda je naladěná stanice stabilní.
+- Funkce si4703_getRSSI() čte aktuální kvalitu signálu (0–75).
+- Slouží pro indikaci, zda je naladěná stanice stabilní.
 ---
 ### Dekódování vysílaných textů
 
-Funkce si4703_readRDS() podporuje:
+- Funkce si4703_readRDS() podporuje:
 
--PS (Program Service) – název stanice (8 znaků)
--RadioText – textové zprávy (až 64 znaků)
--Zpracovává RDS bloky typu 0A/0B a 2A a ukládá texty pro zobrazení.
+  - PS (Program Service) – název stanice (8 znaků)
+  - RadioText – textové zprávy (až 64 znaků)
+  - Zpracovává RDS bloky typu 0A/0B a 2A a ukládá texty pro zobrazení.
 ---
 ##Rozdělení práce:
 
-Rous - implementace RDS, dekódování textu
+- Rous - implementace RDS, dekódování textu
 
-Smetana - enkodér, ovládací prvky
+- Smetana - enkodér, ovládací prvky
 
-Pochylý - LCD a zobrazení informací
+- Pochylý - LCD a zobrazení informací
 
-Maděránek - plakát (GitHub), schémata, propojení v main.c
+- Maděránek - plakát (GitHub), schémata, propojení v main.c
 
 ---
 
@@ -138,11 +138,11 @@ Maděránek - plakát (GitHub), schémata, propojení v main.c
 
 Projekt představuje kompletní implementaci FM rádia na AVR, zahrnující:
 
--Ovladač FM tuneru SI4703 přes I²C
+- Ovladač FM tuneru SI4703 přes I²C
 
--Automatické ladění, nastavení hlasitosti a měření signálu
+- Automatické ladění, nastavení hlasitosti a měření signálu
 
--Zobrazení informací na LCD/OLED
+- Zobrazení informací na LCD/OLED
 
 -Podporu RDS (název stanice & text)
 
