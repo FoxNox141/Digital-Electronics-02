@@ -7,7 +7,7 @@ Komplexní implementace FM rádia s podporou RDS, LCD a I2C komunikace.
 
 ---
 
-## $\color{#59d0eb}{\textsf{Popis projektu}}$
+## $\color{#75dad3}{\textsf{Popis projektu}}$
 
 Projekt demonstruje:
 - příjem FM signálu pomocí modulu SI4703 nebo TEA5767
@@ -27,7 +27,7 @@ Kombinuje znalosti z oblastí:
 
 ---
 
-## $\color{#b1e8fd}{\textsf{Hardware}}$
+## $\color{#75dad3}{\textsf{Hardware}}$
 
 Mikrokontrolér: ATmega16/ATmega328
 
@@ -42,7 +42,7 @@ Komunikační sběrnice: I²C
 
 ---
 
-## $\color{Lightblue}{\textsf{Software}}$
+## $\color{#75dad3}{\textsf{Software}}$
 
 - Jazyk: C
 - Kompilátor: AVR-GCC
@@ -60,7 +60,7 @@ Komunikační sběrnice: I²C
 
 ---
 
-## $\color{Lightblue}{\textsf{Ovladač FM tuneru SI4703 – Dokumentace}}$
+## $\color{#75dad3}{\textsf{Ovladač FM tuneru SI4703 – Dokumentace}}$
 
 Níže je shrnutí toho, co dělá kompletní software ovladače tuneru SI4703.
 
