@@ -84,7 +84,7 @@ Níže je shrnutí toho, co dělá kompletní software ovladače tuneru SI4703.
 
 - Tím se realizuje kompletní obousměrná komunikace čipu.
 ---
-### Ladění frekvence
+### $\color{#75dad3}{\textsf{Ladění frekvence}}$
 
 Funkce si4703_setChannel(freq):
 
@@ -95,7 +95,7 @@ Funkce si4703_setChannel(freq):
 - umožňuje přesné a opakovatelné ladění FM pásma
 ---
 
-### Automatické ladění (SEEK)
+### $\color{#75dad3}{\textsf{Automatické ladění (SEEK)}}$
 
  - Pomocí si4703_seekUp() / seekDown():
 
@@ -103,13 +103,13 @@ Funkce si4703_setChannel(freq):
   - zastaví se na prvním dostatečně silném signálu
   - vrací buď nalezenou frekvenci, nebo informaci o neúspěchu
 ---
-### Hlasitost
+### $\color{#75dad3}{\textsf{Hlasitost Síla signálu – RSSI}}$
 
 - Hlasitost je řízena pomocí bitů registru 0×05:
   - rozsah 0–15
   - funkce: si4703_setVolume(), si4703_getVolume()
 ---
-###Síla signálu – RSSI
+### $\color{#75dad3}{\textsf{Síla signálu – RSSI}}$
 
 - Funkce si4703_getRSSI() čte aktuální kvalitu signálu (0–75).
 - Slouží pro indikaci, zda je naladěná stanice stabilní.
@@ -122,7 +122,7 @@ Funkce si4703_setChannel(freq):
   - RadioText – textové zprávy (až 64 znaků)
   - Zpracovává RDS bloky typu 0A/0B a 2A a ukládá texty pro zobrazení.
 ---
-##Rozdělení práce:
+## $\color{#75dad3}{\textsf{Rozdělení práce}}$
 
 - Rous - implementace RDS, dekódování textu
 
@@ -134,7 +134,7 @@ Funkce si4703_setChannel(freq):
 
 ---
 
-##Shrnutí:
+## $\color{#75dad3}{\textsf{Shrnut9}}$
 
 Projekt představuje kompletní implementaci FM rádia na AVR, zahrnující:
 
