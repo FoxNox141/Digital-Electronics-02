@@ -1,4 +1,4 @@
-#  # $\color{Aquamarine}{\textsf{FM Radio – AVR Project}}$
+#  $\color{Aquamarine}{\textsf{FM Radio – AVR Project}}$
 
 Komplexní implementace FM rádia s podporou RDS, LCD a I2C komunikace.
 
