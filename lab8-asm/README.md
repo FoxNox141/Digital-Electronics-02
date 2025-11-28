@@ -82,7 +82,7 @@ Níže je shrnutí toho, co dělá kompletní software ovladače tuneru SI4703.
   - si4703_writeRegisters()
   → zapíše registrační blok zpět (0×02–0×07).
 
-Tím se realizuje kompletní obousměrná komunikace čipu.
+- Tím se realizuje kompletní obousměrná komunikace čipu.
 ---
 ### Ladění frekvence
 
