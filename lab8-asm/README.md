@@ -49,15 +49,15 @@ Komunikační sběrnice: I²C
 - Kompilátor: AVR-GCC
 - Programování: AVRDUDE
 
-Struktura projektu:
-   - `main.c` – propojení všech modulů
-   - `SI4703` - ovladač pro FM tuner
-   - `i2c.c/h` a `twi.c/h` – I2C komunikace a knihovny
-   - `oled.c/h`, `oled_rds.c/h` – zobrazení, ovládání LCD displeje a RDS
-   - `cd.c/h` – LCD ovladač
-   - `freq_selector.c/h` – volba frekvence
-   - `uart.c/h` – ladicí výstup přes sériovou linku
-   - `timer.c/h` – časovače
+- Struktura projektu:
+  - `main.c` – hlavní program
+  - `SI4703` - ovladač pro FM tuner
+  - `i2c.c/h` a `twi.c/h` – I2C komunikace a knihovny
+  - `led.c/h`, `oled_rds.c/h` – zobrazení, ovládání LCD displeje a RDS
+  - `cd.c/h` – LCD ovladač
+  - `freq_selector.c/h` – volba frekvence
+  - `uart.c/h` – ladicí výstup přes sériovou linku
+  - `timer.c/h` – časovače
 
 ---
 
