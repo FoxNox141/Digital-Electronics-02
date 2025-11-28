@@ -42,7 +42,7 @@ Komunikační sběrnice: I²C
 
 ---
 
-## 3. Software
+## $\color{Lightblue}{\textsf{Software}}$
 
 - Jazyk: C
 - Kompilátor: AVR-GCC
@@ -60,7 +60,7 @@ Komunikační sběrnice: I²C
 
 ---
 
-## 4. Ovladač FM tuneru SI4703 – Dokumentace
+## $\color{Lightblue}{\textsf{Ovladač FM tuneru SI4703 – Dokumentace}}$
 
 Níže je shrnutí toho, co dělá kompletní software ovladače tuneru SI4703.
 
