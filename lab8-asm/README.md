@@ -8,7 +8,7 @@ Součástí projektu je vlastní implementace ovladače pro FM tuner (SI4703/TEA
 
 ---
 
-## $${\color{lightblue} 1. \space Popis \space projektu}$$
+## $\color{Lightblue}{\textsf{Popis projektu}}$
 
 Projekt demonstruje:
 - příjem FM signálu pomocí modulu SI4703 nebo TEA5767
@@ -28,7 +28,7 @@ Kombinuje znalosti z oblastí:
 
 ---
 
-$\color{Lightblue}{\textsf{Hardware}}$
+## $\color{Lightblue}{\textsf{Hardware}}$
 
 Mikrokontrolér: ATmega16/ATmega328
 
