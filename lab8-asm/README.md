@@ -21,10 +21,10 @@ Projekt demonstruje:
 - jednoduché uživatelské rozhraní
 
 Kombinuje znalosti z oblastí:
--I²C, GPIO, časovače, UART
--C pro AVR (AVR-GCC)
--návrh embedded rozhraní
--práce s RF a audio signály
+- **I²C, GPIO, časovače, UART**
+- C pro AVR (AVR-GCC)
+- návrh embedded rozhraní
+- práce s RF a audio signály
 
 ---
 
