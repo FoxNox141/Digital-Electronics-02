@@ -106,6 +106,7 @@ Funkce si4703_setChannel(freq):
 ### $\color{#75dad3}{\textsf{Hlasitost Síla signálu – RSSI}}$
 
 - Hlasitost je řízena pomocí bitů registru 0×05:
+  
   - rozsah `0–15`
   - funkce: `si4703_setVolume()`, `si4703_getVolume()`
 ---
