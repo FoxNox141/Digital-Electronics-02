@@ -25,6 +25,8 @@ Kombinuje znalosti z oblastí:
 - návrh embedded rozhraní
 - práce s RF a audio signály
 
+
+![Thought Diagram of subroutines](images/schem.png)
 ---
 
 ## $\color{#75dad3}{\textsf{Hardware}}$
