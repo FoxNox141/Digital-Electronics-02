@@ -7,7 +7,7 @@ Komplexní implementace FM rádia s podporou RDS, LCD a I2C komunikace.
 
 ---
 
-## $\color{Lightblue}{\textsf{Popis projektu}}$
+## $\color{#59d0eb}{\textsf{Popis projektu}}$
 
 Projekt demonstruje:
 - příjem FM signálu pomocí modulu SI4703 nebo TEA5767
