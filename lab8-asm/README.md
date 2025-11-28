@@ -1,7 +1,9 @@
-#FM Radio – AVR Project
+# FM Radio – AVR Project
 
-Komplexní implementace FM rádia s podporou RDS, LCD a I2C komunikace
+Komplexní implementace FM rádia s podporou RDS, LCD a I2C komunikace.
+
 Tento projekt realizuje plnohodnotné FM rádio na platformě AVR mikrokontrolérů. Jde o laboratorní úlohu z předmětu Digital Electronics 2, jejímž cílem je propojit více periferií mikrokontroléru a ukázat praktické řízení externích RF modulů. 
+
 Součástí projektu je vlastní implementace ovladače pro FM tuner (SI4703/TEA5767) přes sběrnici I²C, zobrazování a dekódování RDS informací, ovládání pomocí tlačítek a řízení uživatelského rozhraní.
 
 ---
