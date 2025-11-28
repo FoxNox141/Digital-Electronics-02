@@ -8,7 +8,7 @@ Součástí projektu je vlastní implementace ovladače pro FM tuner (SI4703/TEA
 
 ---
 
-## 1. Popis projektu
+## <code style="color : name_color">1. Popis projektu</code>
 
 Projekt demonstruje:
 - příjem FM signálu pomocí modulu SI4703 nebo TEA5767
