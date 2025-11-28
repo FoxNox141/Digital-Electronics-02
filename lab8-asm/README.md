@@ -11,14 +11,14 @@ Součástí projektu je vlastní implementace ovladače pro FM tuner (SI4703/TEA
 ## 1. Popis projektu
 
 Projekt demonstruje:
--příjem FM signálu pomocí modulu SI4703 nebo TEA5767
--komunikaci s tunerem přes I²C (TWI)
--zobrazení informací na LCD/OLED displeji
--dekódování RDS (Radio Data System)
--ovládání rádia pomocí tlačítek/enkodéru
--přesné a automatické ladění frekvence
--měření síly signálu (RSSI)
--jednoduché uživatelské rozhraní
+- příjem FM signálu pomocí modulu SI4703 nebo TEA5767
+- komunikaci s tunerem přes I²C (TWI)
+- zobrazení informací na LCD/OLED displeji
+- dekódování RDS (Radio Data System)
+- ovládání rádia pomocí tlačítek/enkodéru
+- přesné a automatické ladění frekvence
+- měření síly signálu (RSSI)
+- jednoduché uživatelské rozhraní
 
 Kombinuje znalosti z oblastí:
 -I²C, GPIO, časovače, UART
