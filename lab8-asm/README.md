@@ -67,22 +67,21 @@ Níže je shrnutí toho, co dělá kompletní software ovladače tuneru SI4703.
 
 - Inicializace tuneru
 
-- Tuner SI4703 se uvede do režimu I²C pomocí RESET linky. Následně se:
+- Tuner SI4703 se uvede do režimu I²C pomocí RESET linky.
+  
+- Následně se:
 
-- aktivuje krystal
--aktivuje přijímač
--načtou se a inicializují, všechny registry (0×00–0×0F)
--provede se základní konfigurace audia a RDS
+  - aktivuje krystal
+  - aktivuje přijímač
+  - načtou se a inicializují, všechny registry (0×00–0×0F)
+  - provede se základní konfigurace audia a RDS
 
 Čtení a zápis registrů
-
-Registery tuneru jsou zpracovány v poli si4703_regs[16].
-
-si4703_readRegisters()
-→ načte všech 16 registrů tuneru.
-
-si4703_writeRegisters()
-→ zapíše registrační blok zpět (0×02–0×07).
+- Registery tuneru jsou zpracovány v poli si4703_regs[16].
+  - si4703_readRegisters()
+  → načte všech 16 registrů tuneru.
+  - si4703_writeRegisters()
+  → zapíše registrační blok zpět (0×02–0×07).
 
 Tím se realizuje kompletní obousměrná komunikace čipu.
 ---
