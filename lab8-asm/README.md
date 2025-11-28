@@ -114,12 +114,12 @@ Funkce si4703_setChannel(freq):
 - Funkce si4703_getRSSI() čte aktuální kvalitu signálu (0–75).
 - Slouží pro indikaci, zda je naladěná stanice stabilní.
 ---
-### Dekódování vysílaných textů
+### $\color{#75dad3}{\textsf{Dekódování vysílaných textů}}$
 
 - Funkce si4703_readRDS() podporuje:
 
-  - PS (Program Service) – název stanice (8 znaků)
-  - RadioText – textové zprávy (až 64 znaků)
+  - PS (Program Service) – název stanice `(8 znaků)`
+  - RadioText – textové zprávy `(až 64 znaků)`
   - Zpracovává RDS bloky typu 0A/0B a 2A a ukládá texty pro zobrazení.
 ---
 ## $\color{#75dad3}{\textsf{Rozdělení práce}}$
@@ -134,7 +134,7 @@ Funkce si4703_setChannel(freq):
 
 ---
 
-## $\color{#75dad3}{\textsf{Shrnut9}}$
+## $\color{#75dad3}{\textsf{Shrnutí}}$
 
 Projekt představuje kompletní implementaci FM rádia na AVR, zahrnující:
 
