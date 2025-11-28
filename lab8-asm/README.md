@@ -49,15 +49,15 @@ Komunikační sběrnice: I²C
 - Kompilátor: AVR-GCC
 - Programování: AVRDUDE
 
-- Struktura projektu:
- - main.c – propojení všech modulů
- - SI4703 - ovladač pro FM tuner
- - i2c.c/h a twi.c/h – I2C komunikace a knihovny
- - oled.c/h, oled_rds.c/h – zobrazení, ovládání LCD displeje a RDS
- - lcd.c/h – LCD ovladač
- - freq_selector.c/h – volba frekvence
- - uart.c/h – ladicí výstup přes sériovou linku
- - timer.c/h – časovače
+Struktura projektu:
+   - `main.c` – propojení všech modulů
+   - `SI4703` - ovladač pro FM tuner
+   - `i2c.c/h` a `twi.c/h` – I2C komunikace a knihovny
+   - `oled.c/h`, `oled_rds.c/h` – zobrazení, ovládání LCD displeje a RDS
+   - `cd.c/h` – LCD ovladač
+   - `freq_selector.c/h` – volba frekvence
+   - `uart.c/h` – ladicí výstup přes sériovou linku
+   - `timer.c/h` – časovače
 
 ---
 
@@ -65,11 +65,11 @@ Komunikační sběrnice: I²C
 
 Níže je shrnutí toho, co dělá kompletní software ovladače tuneru SI4703.
 
-Inicializace tuneru
+- Inicializace tuneru
 
-Tuner SI4703 se uvede do režimu I²C pomocí RESET linky. Následně se:
+- Tuner SI4703 se uvede do režimu I²C pomocí RESET linky. Následně se:
 
--aktivuje krystal
+- aktivuje krystal
 -aktivuje přijímač
 -načtou se a inicializují, všechny registry (0×00–0×0F)
 -provede se základní konfigurace audia a RDS
