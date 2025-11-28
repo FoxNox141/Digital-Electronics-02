@@ -28,8 +28,7 @@ Kombinuje znalosti z oblastí:
 
 ---
 
-## 
-<code style="color : red">Hardware</code>
+$\color{Lightblue}{\textsf{Hardware}}$
 
 Mikrokontrolér: ATmega16/ATmega328
 
