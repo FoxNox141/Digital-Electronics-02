@@ -99,9 +99,8 @@ Funkce si4703_setChannel(freq):
 
  - Pomocí si4703_seekUp() / seekDown():
    
-   - tuner vyhledává další dostupnou stanici
-   - zastaví se na prvním dostatečně silném signálu
-   - vrací buď nalezenou frekvenci, nebo informaci o neúspěchu
+   - tuner vyhledává další dostupnou stanici a zastaví se na prvním dostatečně silném signálu
+     - vrací buď nalezenou frekvenci, nebo informaci o neúspěchu
 ---
 ### $\color{#75dad3}{\textsf{Hlasitost Síla signálu – RSSI}}$
 
